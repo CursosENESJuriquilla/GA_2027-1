@@ -1,0 +1,13 @@
+---
+title: "Transformaciones geométricas"
+page-layout: full
+toc: false
+---
+
+Explora traslaciones, reflexiones, rotaciones y homotecias de puntos, rectas y cónicas con los ejes fijos.
+
+[Abrir interactivo en una pestaña independiente](apps/2-transformaciones.html){.app-link target="_blank" rel="noopener"}
+
+```{=html}
+<iframe class="app-frame" src="apps/2-transformaciones.html" title="Transformaciones geométricas" style="width:100%; height:1150px; border:0; border-radius:10px;" allowfullscreen></iframe>
+```

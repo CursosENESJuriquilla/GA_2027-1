@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "cilindros.html",
+    "href": "cilindros.html",
+    "title": "Cilindros sobre curvas planas",
+    "section": "",
+    "text": "Una superficie cilíndrica se obtiene al considerar una curva plana, llamada directriz, y las rectas paralelas a una dirección fija que pasan por sus puntos, llamadas generatrices.\nPor ejemplo, \\(x^2+y^2=4\\) describe un cilindro circular en el espacio: la variable \\(z\\) es libre y las generatrices son paralelas al eje \\(z\\).",
+    "crumbs": [
+      "Cuádricas y superficies",
+      "Cilindros sobre curvas planas"
+    ]
+  },
+  {
+    "objectID": "cilindros.html#laboratorio-interactivo",
+    "href": "cilindros.html#laboratorio-interactivo",
+    "title": "Cilindros sobre curvas planas",
+    "section": "Laboratorio interactivo",
+    "text": "Laboratorio interactivo\nSelecciona un cilindro, modifica sus parámetros y utiliza los controles para mostrar la directriz, las generatrices y las trazas. Puedes girar la figura con el ratón.\nAbrir laboratorio en pantalla independiente",
+    "crumbs": [
+      "Cuádricas y superficies",
+      "Cilindros sobre curvas planas"
+    ]
+  },
+  {
+    "objectID": "cilindros.html#actividades-de-exploración",
+    "href": "cilindros.html#actividades-de-exploración",
+    "title": "Cilindros sobre curvas planas",
+    "section": "Actividades de exploración",
+    "text": "Actividades de exploración\n\n\n\n\n\n\nNota\n\n\n\nPrimero determina algebraicamente los resultados y después compruébalos con la aplicación. Las trazas tangentes pueden no aparecer en la visualización numérica.\n\n\n\n1. Cilindro circular\nSelecciona radio 2. Identifica la variable libre, escribe la directriz en \\(z=0\\) y la generatriz por \\((2,0,0)\\). Estudia las trazas con \\(z=3\\), \\(x=0\\), \\(x=1\\), \\(x=2\\) y \\(x=3\\).\n\n\n2. Cilindro elíptico\nFija \\(a=2\\) y cambia \\(b\\) de 2 a 3. Explica qué cambia en la directriz y qué permanece constante en las generatrices.\n\n\n3. Cilindro parabólico\nExplora \\(z=kx^2\\) para \\(k=0.5,1,-1\\). Describe la apertura y determina la dirección de las generatrices.\n\n\n4. Otras directrices\nCompara los cilindros hiperbólico y sinusoidal. Identifica la variable libre y describe cómo cambian sus trazas al desplazar el plano perpendicular a las generatrices.",
+    "crumbs": [
+      "Cuádricas y superficies",
+      "Cilindros sobre curvas planas"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geometría Analítica",
+    "section": "",
+    "text": "Bienvenidas y bienvenidos. Este sitio reúne recursos interactivos que complementan las clases de Geometría Analítica de la Licenciatura en Matemáticas para el Desarrollo de la ENES Juriquilla, UNAM. Puedes consultarlos para visualizar conceptos geométricos, modificar parámetros y comprobar tus resultados matemáticos."
+  },
+  {
+    "objectID": "index.html#transformaciones-geométricas",
+    "href": "index.html#transformaciones-geométricas",
+    "title": "Geometría Analítica",
+    "section": "Transformaciones geométricas",
+    "text": "Transformaciones geométricas\n\n\n\n\nCambio de ejes coordenados\nExplora la traslación y rotación de los ejes y observa cómo cambian las coordenadas de puntos y las ecuaciones de cónicas sin mover las figuras.\nAbrir interactivo\n\n\n\n\n\nTransformaciones en el plano\nVisualiza traslaciones, rotaciones, reflexiones y homotecias de puntos, rectas y cónicas, manteniendo fijos los ejes coordenados.\nAbrir interactivo\n\n\n\nPHP′\n\nReflexiones respecto de un plano\nExplora en tres dimensiones la reflexión de un punto respecto de un plano y su relación con la proyección ortogonal.\nAbrir interactivo\n\n\n\nO\n\nHomotecias\nModifica el centro y el factor de homotecia de un triángulo para observar los cambios en su imagen.\nAbrir interactivo"
+  },
+  {
+    "objectID": "index.html#cuádricas-y-superficies",
+    "href": "index.html#cuádricas-y-superficies",
+    "title": "Geometría Analítica",
+    "section": "Cuádricas y superficies",
+    "text": "Cuádricas y superficies\n\n\n\n\nCilindros sobre curvas planas\nExplora superficies cilíndricas en tres dimensiones, sus directrices, generatrices y trazas con planos coordenados y paralelos a ellos.\nAbrir laboratorio"
+  },
+  {
+    "objectID": "cambio_ejes.html",
+    "href": "cambio_ejes.html",
+    "title": "Traslación y rotación de ejes coordenados",
+    "section": "",
+    "text": "Explora cómo cambian las coordenadas de puntos y cónicas al modificar el sistema de referencia, manteniendo fija la figura.\nAbrir interactivo en una pestaña independiente\n\n\n\n\n Volver arriba",
+    "crumbs": [
+      "Transformaciones geométricas",
+      "Cambio de ejes coordenados"
+    ]
+  },
+  {
+    "objectID": "transformaciones.html",
+    "href": "transformaciones.html",
+    "title": "Transformaciones geométricas",
+    "section": "",
+    "text": "Explora traslaciones, reflexiones, rotaciones y homotecias de puntos, rectas y cónicas con los ejes fijos.\nAbrir interactivo en una pestaña independiente\n\n\n\n\n Volver arriba",
+    "crumbs": [
+      "Transformaciones geométricas",
+      "Transformaciones en el plano"
+    ]
+  },
+  {
+    "objectID": "reflexiones_plano.html",
+    "href": "reflexiones_plano.html",
+    "title": "Reflexiones respecto de un plano",
+    "section": "",
+    "text": "Visualiza la reflexión de un punto en el espacio y su proyección perpendicular sobre un plano.\nAbrir interactivo en una pestaña independiente\n\n\n\n\n Volver arriba",
+    "crumbs": [
+      "Transformaciones geométricas",
+      "Reflexiones en el espacio"
+    ]
+  },
+  {
+    "objectID": "homotecias.html",
+    "href": "homotecias.html",
+    "title": "Homotecias",
+    "section": "",
+    "text": "Modifica el centro y el factor de homotecia para observar la imagen de un triángulo.\nAbrir interactivo en una pestaña independiente\n\n\n\n\n Volver arriba",
+    "crumbs": [
+      "Transformaciones geométricas",
+      "Homotecias"
+    ]
+  },
+  {
+    "objectID": "index.html#licencia-y-uso-del-material",
+    "href": "index.html#licencia-y-uso-del-material",
+    "title": "Geometría Analítica",
+    "section": "Licencia y uso del material",
+    "text": "Licencia y uso del material\nLos recursos interactivos de este sitio han sido elaborados por la Dra. Adriana Haydeé Contreras Peruyero como material didáctico para el curso de Geometría Analítica de la Licenciatura en Matemáticas para el Desarrollo, ENES Juriquilla, UNAM.\nSalvo que se indique lo contrario, estos materiales se distribuyen bajo la licencia Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0).\nSe permite su uso, reproducción, distribución y adaptación con fines no comerciales, siempre que se reconozca la autoría original y se indiquen las modificaciones realizadas.\nCita sugerida:\nContreras Peruyero, A. H. (2026). Geometría Analítica: recursos interactivos. ENES Juriquilla, Universidad Nacional Autónoma de México."
+  }
+]

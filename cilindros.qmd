@@ -1,0 +1,42 @@
+---
+title: "Cilindros sobre curvas planas"
+subtitle: "Unidad 4 · Cuádricas y superficies"
+---
+
+Una superficie cilíndrica se obtiene al considerar una curva plana, llamada **directriz**, y las rectas paralelas a una dirección fija que pasan por sus puntos, llamadas **generatrices**.
+
+Por ejemplo, $x^2+y^2=4$ describe un cilindro circular en el espacio: la variable $z$ es libre y las generatrices son paralelas al eje $z$.
+
+## Laboratorio interactivo
+
+Selecciona un cilindro, modifica sus parámetros y utiliza los controles para mostrar la directriz, las generatrices y las trazas. Puedes girar la figura con el ratón.
+
+[Abrir laboratorio en pantalla independiente](apps/Laboratorio_Cilindros_4_1.html){.app-link target="_blank"}
+
+```{=html}
+<iframe class="app-frame" src="apps/Laboratorio_Cilindros_4_1.html" title="Laboratorio interactivo de cilindros" allowfullscreen></iframe>
+```
+
+## Actividades de exploración
+
+::: {.callout-note}
+Primero determina algebraicamente los resultados y después compruébalos con la aplicación. Las trazas tangentes pueden no aparecer en la visualización numérica.
+:::
+
+### 1. Cilindro circular
+
+Selecciona radio 2. Identifica la variable libre, escribe la directriz en $z=0$ y la generatriz por $(2,0,0)$. Estudia las trazas con $z=3$, $x=0$, $x=1$, $x=2$ y $x=3$.
+
+### 2. Cilindro elíptico
+
+Fija $a=2$ y cambia $b$ de 2 a 3. Explica qué cambia en la directriz y qué permanece constante en las generatrices.
+
+### 3. Cilindro parabólico
+
+Explora $z=kx^2$ para $k=0.5,1,-1$. Describe la apertura y determina la dirección de las generatrices.
+
+### 4. Otras directrices
+
+Compara los cilindros hiperbólico y sinusoidal. Identifica la variable libre y describe cómo cambian sus trazas al desplazar el plano perpendicular a las generatrices.
+
+

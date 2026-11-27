@@ -1,0 +1,13 @@
+---
+title: "Reflexiones respecto de un plano"
+page-layout: full
+toc: false
+---
+
+Visualiza la reflexión de un punto en el espacio y su proyección perpendicular sobre un plano.
+
+[Abrir interactivo en una pestaña independiente](apps/3-reflexiones_plano_3d.html){.app-link target="_blank" rel="noopener"}
+
+```{=html}
+<iframe class="app-frame" src="apps/3-reflexiones_plano_3d.html" title="Reflexiones respecto de un plano" style="width:100%; height:1150px; border:0; border-radius:10px;" allowfullscreen></iframe>
+```

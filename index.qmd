@@ -1,0 +1,109 @@
+---
+title: "Geometría Analítica"
+subtitle: "Recursos interactivos"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<style>
+.resource-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; align-items: stretch; }
+.resource-card { display: flex; flex-direction: column; min-width: 0; }
+.resource-illustration { display: block; width: 100%; height: auto; margin-bottom: 1rem; flex-shrink: 0; }
+.resource-card > p:last-child { margin-top: auto; margin-bottom: 0; padding-top: .75rem; }
+.resource-card .app-link { align-self: flex-start; }
+@media (max-width: 1200px) { .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 650px) { .resource-grid { grid-template-columns: 1fr; } }
+</style>
+```
+
+Bienvenidas y bienvenidos. Este sitio reúne recursos interactivos que complementan las clases de Geometría Analítica de la Licenciatura en Matemáticas para el Desarrollo de la ENES Juriquilla, UNAM. Puedes consultarlos para visualizar conceptos geométricos, modificar parámetros y comprobar tus resultados matemáticos.
+
+## Transformaciones geométricas
+
+:::: {.resource-grid}
+::: {.resource-card}
+
+```{=html}
+<svg class="resource-illustration" viewBox="0 0 220 110" role="img" aria-label="Cambio de ejes con elipse fija" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="110" rx="6" fill="#f0e8f8"/><path d="M15 60H205 M105 8V103" stroke="#a39bae"/><path d="M25 90L195 20 M78 3L125 108" stroke="#c34a9a" stroke-width="2"/><ellipse cx="110" cy="55" rx="65" ry="26" transform="rotate(-24 110 55)" fill="none" stroke="#3979c2" stroke-width="3"/></svg>
+```
+
+### Cambio de ejes coordenados
+
+Explora la traslación y rotación de los ejes y observa cómo cambian las coordenadas de puntos y las ecuaciones de cónicas sin mover las figuras.
+
+[Abrir interactivo](cambio_ejes.qmd){.app-link}
+:::
+
+::: {.resource-card}
+
+```{=html}
+<svg class="resource-illustration" viewBox="0 0 220 110" role="img" aria-label="Traslación de una elipse con ejes fijos" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="110" rx="6" fill="#f0e8f8"/><path d="M10 55H210 M110 8V103" stroke="#b4a8bf"/><ellipse cx="55" cy="73" rx="35" ry="19" fill="#3979c2" fill-opacity=".12" stroke="#3979c2" stroke-width="3"/><ellipse cx="165" cy="35" rx="35" ry="19" fill="#c34a9a" fill-opacity=".12" stroke="#c34a9a" stroke-width="3"/><path d="M55 73L165 35" stroke="#7950a5" stroke-width="1.8" stroke-dasharray="5 3"/><path d="M154 34L165 35L157 43" fill="none" stroke="#7950a5" stroke-width="2"/><circle cx="55" cy="73" r="3" fill="#3979c2"/><circle cx="165" cy="35" r="3" fill="#c34a9a"/></svg>
+```
+
+### Transformaciones en el plano
+
+Visualiza traslaciones, rotaciones, reflexiones y homotecias de puntos, rectas y cónicas, manteniendo fijos los ejes coordenados.
+
+[Abrir interactivo](transformaciones.qmd){.app-link}
+:::
+
+::: {.resource-card}
+
+```{=html}
+<svg class="resource-illustration" viewBox="0 0 220 110" role="img" aria-label="Punto y su reflexión respecto de un plano" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="110" rx="6" fill="#f0e8f8"/><path d="M20 75L130 100L200 45L90 20Z" fill="#c4a5e5" fill-opacity=".6" stroke="#7950a5"/><path d="M110 10V100" stroke="#7950a5" stroke-width="2" stroke-dasharray="4 3"/><circle cx="110" cy="10" r="5" fill="#3979c2"/><circle cx="110" cy="55" r="4" fill="#bc963c"/><circle cx="110" cy="100" r="5" fill="#c34a9a"/><g font-size="11" fill="#4b0082"><text x="120" y="14">P</text><text x="120" y="54">H</text><text x="120" y="103">P′</text></g></svg>
+```
+
+### Reflexiones respecto de un plano
+
+Explora en tres dimensiones la reflexión de un punto respecto de un plano y su relación con la proyección ortogonal.
+
+[Abrir interactivo](reflexiones_plano.qmd){.app-link}
+:::
+
+::: {.resource-card}
+
+```{=html}
+<svg class="resource-illustration" viewBox="0 0 220 110" role="img" aria-label="Homotecia de un triángulo con factor dos" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="110" rx="6" fill="#f0e8f8"/><path d="M20 90L205 90 M20 90L100 10 M20 90L200 60" stroke="#bc963c" stroke-dasharray="4 3"/><path d="M60 90L60 50L110 75Z" fill="#3979c2" fill-opacity=".15" stroke="#3979c2" stroke-width="2"/><path d="M100 90L100 10L200 60Z" fill="#c34a9a" fill-opacity=".12" stroke="#c34a9a" stroke-width="2"/><circle cx="20" cy="90" r="4" fill="#4b0082"/><text x="9" y="104" font-size="11" fill="#4b0082">O</text></svg>
+```
+
+### Homotecias
+
+Modifica el centro y el factor de homotecia de un triángulo para observar los cambios en su imagen.
+
+[Abrir interactivo](homotecias.qmd){.app-link}
+:::
+::::
+
+## Cuádricas y superficies
+
+:::: {.resource-grid}
+::: {.resource-card}
+
+```{=html}
+<svg class="resource-illustration" viewBox="0 0 220 110" role="img" aria-label="Cilindro circular con generatrices" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="110" rx="6" fill="#f0e8f8"/><path d="M45 83L45 25A65 17 0 0 1 175 25V83A65 17 0 0 1 45 83" fill="#b38dda" fill-opacity=".35" stroke="#7950a5"/><ellipse cx="110" cy="25" rx="65" ry="17" fill="none" stroke="#7950a5" stroke-width="2"/><path d="M60 36V94 M85 41V99 M110 42V100 M135 41V99 M160 36V94" stroke="#7950a5"/><ellipse cx="110" cy="83" rx="65" ry="17" fill="none" stroke="#238443" stroke-width="2"/></svg>
+```
+
+### Cilindros sobre curvas planas
+
+Explora superficies cilíndricas en tres dimensiones, sus directrices, generatrices y trazas con planos coordenados y paralelos a ellos.
+
+[Abrir laboratorio](cilindros.qmd){.app-link}
+:::
+::::
+
+---
+
+## Licencia y uso del material
+
+Los recursos interactivos de este sitio han sido elaborados por la Dra. Adriana Haydeé Contreras Peruyero como material didáctico para el curso de Geometría Analítica de la Licenciatura en Matemáticas para el Desarrollo, ENES Juriquilla, UNAM.
+
+Salvo que se indique lo contrario, estos materiales se distribuyen bajo la licencia [Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.es).
+
+Se permite su uso, reproducción, distribución y adaptación con fines no comerciales, siempre que se reconozca la autoría original y se indiquen las modificaciones realizadas.
+
+**Cita sugerida:**
+
+Contreras Peruyero, A. H. (2026). *Geometría Analítica: recursos interactivos*. ENES Juriquilla, Universidad Nacional Autónoma de México.
+
+

@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "apps/**"
+
+website:
+  title: "Geometría Analítica"
+  site-url: https://cursosenesjuriquilla.github.io/GA_2027-1/
+  repo-url: https://github.com/CursosENESJuriquilla/GA_2027-1
+  favicon: figures/favicon.png
+  navbar:
+    background: "#4B0082"
+    foreground: "#FFFFFF"
+    logo: figures/LogoENES.png
+    left:
+      - href: index.qmd
+        text: Inicio
+      - sidebar:recursos
+    right:
+      - icon: github
+        href: https://github.com/CursosENESJuriquilla/GA_2027-1
+        aria-label: GitHub
+  sidebar:
+    - id: recursos
+      title: Recursos interactivos
+      style: docked
+      search: true
+      contents:
+        - section: "Transformaciones geométricas"
+          contents:
+            - href: cambio_ejes.qmd
+              text: Cambio de ejes coordenados
+            - href: transformaciones.qmd
+              text: Transformaciones en el plano
+            - href: reflexiones_plano.qmd
+              text: Reflexiones en el espacio
+            - href: homotecias.qmd
+              text: Homotecias
+
+        - section: "Cuádricas y superficies"
+          contents:
+            - cilindros.qmd
+  page-navigation: false
+  back-to-top-navigation: true
+  page-footer:
+    left: |
+      © 2026 Haydeé Peruyero  
+      ENES Juriquilla, UNAM
+    center: |
+      Material didáctico de Geometría Analítica  
+      Lic. en Matemáticas para el Desarrollo
+    right: |
+      [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+    background: "#F3EDF9"
+    foreground: "#4B0082"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+    toc: false
+    grid:
+      sidebar-width: 245px
+      body-width: 1400px
+      margin-width: 0px
+      gutter-width: 1.5rem
+    linkcolor: "#6F2DA8"
+    crossrefs-hover: true
+    footnotes-hover: true
+    code-copy: true
+    code-fold: show
+    code-annotations: hover
+    code-block-bg: true
+    code-block-border-left: "#7B2CBF"
+    syntax-highlighting: arrow
+
+editor: visual
+lang: es
+execute:
+  error: true
+  message: false
+  echo: true
+  freeze: auto

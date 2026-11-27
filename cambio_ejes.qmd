@@ -1,0 +1,13 @@
+---
+title: "Traslación y rotación de ejes coordenados"
+page-layout: full
+toc: false
+---
+
+Explora cómo cambian las coordenadas de puntos y cónicas al modificar el sistema de referencia, manteniendo fija la figura.
+
+[Abrir interactivo en una pestaña independiente](apps/1-cambio_ejes_coordenados.html){.app-link target="_blank" rel="noopener"}
+
+```{=html}
+<iframe class="app-frame" src="apps/1-cambio_ejes_coordenados.html" title="Traslación y rotación de ejes coordenados" style="width:100%; height:1150px; border:0; border-radius:10px;" allowfullscreen></iframe>
+```
